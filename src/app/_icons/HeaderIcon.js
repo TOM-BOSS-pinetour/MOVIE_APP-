@@ -1,5 +1,5 @@
 import * as React from "react";
-const HeaderIcon = (props) => (
+export const HeaderIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={93}
