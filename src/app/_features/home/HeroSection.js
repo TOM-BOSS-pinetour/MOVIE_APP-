@@ -4,7 +4,7 @@ import PlayIcon from "@/app/_icons/PlayIcon";
 
 export const HeroSection = ({ title, rating, description }) => {
   return (
-    <div className="w-[1440px] h-[600px] bg-[url('/Feature.png')] bg-cover bg-center relative mt-[24px]">
+    <div className="w-[1440px] h-[600px] bg-[url('/Feature.png')] bg-cover bg-center relative ">
       <div className="absolute left-[140px] bottom-[158px] w-[404px] flex flex-col gap-4">
         <div>
           <p className="text-[#FFFFFF] text-base font-normal leading-[24px]">

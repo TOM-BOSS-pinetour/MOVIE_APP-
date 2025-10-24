@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 const BASE_URL = "https://api.themoviedb.org/3";
 const ACCESS_TOKEN =
   "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxMjI5ZmNiMGRmZTNkMzc2MWFmOWM0YjFjYmEyZTg1NiIsIm5iZiI6MTc1OTcxMTIyNy43OTAwMDAyLCJzdWIiOiI2OGUzMGZmYjFlN2Y3MjAxYjI5Y2FiYmIiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.M0DQ3rCdsWnMw8U-8g5yGXx-Ga00Jp3p11eRyiSxCuY";
-
+// 
 export const PopularMovieList = () => {
   const [movies, setMovies] = useState([]);
 
@@ -35,7 +35,7 @@ export const PopularMovieList = () => {
     <div className="w-<fraction> h-<fraction> flex justify-center">
       <div className="p-6">
         <div className="flex justify-between">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">Upcoming</h2>
+          <h2 className="text-2xl font-bold mb-6 text-gray-800">Popular</h2>
           <h3 className="text-sm font-normal oklch(14.7% 0.004 49.25) flex items-center gap-[11px]">
             See more
             <svg

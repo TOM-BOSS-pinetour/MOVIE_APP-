@@ -35,7 +35,7 @@ export const TopRatedMovieList = () => {
     <div className="w-<fraction> h-<fraction> flex justify-center">
       <div className="p-6">
         <div className="flex justify-between">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">Upcoming</h2>
+          <h2 className="text-2xl font-bold mb-6 text-gray-800">Top Rated</h2>
           <h3 className="text-sm font-normal oklch(14.7% 0.004 49.25) flex items-center gap-[11px]">
             See more
             <svg

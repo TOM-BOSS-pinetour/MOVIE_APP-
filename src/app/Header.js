@@ -14,12 +14,16 @@ import {
 } from "@/components/ui/input-group";
 import { SearchIcon } from "lucide-react";
 import { ModeToggle } from "./_features/ModeToggle";
-// 
+import HeaderIcon from "./_icons/HeaderIcon";
+//
 export default function Header() {
   return (
     <div className="flex items-center justify-center w-full h-[59px] mb-[24px]">
       <div className="h-[36px] max-w-[1280px] w-[1280px] flex justify-between items-center">
-        <div className="flex row gap-[12px]">
+        <div>
+          <HeaderIcon />
+        </div>
+        <div className="flex row">
           <Select>
             <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="Genre" />
@@ -42,7 +46,9 @@ export default function Header() {
             </InputGroupAddon>
           </InputGroup>
         </div>
-        <ModeToggle />
+        <div>
+          <ModeToggle />
+        </div>
       </div>
     </div>
   );
